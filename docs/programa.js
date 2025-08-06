@@ -25,8 +25,8 @@ new L.GPX(gpxFile, {
 
 // Lista de marcadores con imágenes (sin descripciones)
 const puntosConImagenes = [
-    { coords: [4.627581, -74.066064], img: 'imagenes/1.jpg', descripcion: '' },
-    { coords: [4.627004, -74.065608], img: 'imagenes/2.jpg', descripcion: '' },
+    { coords: [4.627581, -74.066064], img: 'img_1.jpg', descripcion: '' },
+    { coords: [4.627004, -74.065608], img: 'img_2.jpg', descripcion: '' },
     { coords: [4.6263707764005995, -74.06579541755313], img: 'imagenes/3.jpg', descripcion: '' },
     { coords: [4.626355240855779, -74.06610416239698], img: 'imagenes/4.jpg', descripcion: '' },
     { coords: [4.627148948117714, -74.06669193538633], img: 'imagenes/5.jpg', descripcion: '' },
