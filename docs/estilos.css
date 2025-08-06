@@ -5,13 +5,13 @@ body {
 }
 
 h1 {
-    margin: 10px 0;
+    background: #2c3e50;
+    color: white;
+    margin: 0;
+    padding: 10px;
 }
 
 #map {
-    width: 90vw;
-    height: 80vh;
-    margin: 0 auto 20px auto;
-    border: 2px solid #333;
-    border-radius: 8px;
+    height: 90vh;
+    width: 100%;
 }
