@@ -15,13 +15,9 @@
     Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyZTBhZDZlZS00YzVlLTQ5OTEtYjE4YS0wNGM4MGNiZmQ1OTciLCJpZCI6MzMxMzc1LCJpYXQiOjE3NTUwNDI2MTl9.3xofU5Qn6Ruefi3hjMvR0h3q2CVddGIupiNBVtnxeVY';
 
     // Initialize the Cesium Viewer in the HTML element with the `cesiumContainer` ID.
-    const viewer = new Cesium.Viewer("cesiumContainer", {
-      baseLayer: Cesium.ImageryLayer.fromProviderAsync(
-        Cesium.ArcGisMapServerImageryProvider.fromBasemapType(
-          Cesium.ArcGisBaseMapType.WORLD_IMAGERY
-        )
-      ),
-    });
+    const viewer = new Cesium.Viewer('cesiumContainer', {
+      terrain: Cesium.Terrain.fromWorldTerrain(),
+    });    
 
     // Fly the camera to San Francisco at the given longitude, latitude, and height.
     viewer.camera.flyTo({
