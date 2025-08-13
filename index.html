@@ -29,7 +29,7 @@
     viewer.scene.globe.depthTestAgainstTerrain = true;
 
     // 1) Capa del barrio: SOLO para ubicar/recortar (sin extrusión)
-    const barrio = await Cesium.GeoJsonDataSource.load("mariacano.geojson", {
+    const barrio = await Cesium.GeoJsonDataSource.load("Villa_Anny_II.geojson", {
       clampToGround: true
     });
     viewer.dataSources.add(barrio);
